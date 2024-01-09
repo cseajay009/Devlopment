@@ -1,0 +1,21 @@
+Composite lets you compose objects into tree structures
+and then work with these structures as if they were individual objects.
+
+**** Problem that it solves ****
+Consider a scenario of a Corporate where each employee holds some reward points and you are asked to write a solution to get all the points for the departments
+Based on these points a final rating will be drawn and departments will be ranked accordingly.
+
+Note :- ** Reward points are provided to employee's based on impact of their work on the organization.
+
+
+Component => Interface with Common Operation for leaf as well as composite
+Composite => Class Holding instances of composite and providing low level operations on them
+Leaf      => The smallest unit in the tree
+
+In above scenario
+
+Leaf => Employee
+Composite => Department
+Component => holds getTotalRating method
+
+Let's get started with Code :)

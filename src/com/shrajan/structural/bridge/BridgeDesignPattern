@@ -1,0 +1,49 @@
+Inheritance in some cases leads to un-necessary complications and code duplication
+E.g.
+
+Again Squares and Triangles :) Have Patience it talks about only composition nothing else
+
+Shape has two sub classes Square and Triangle and now we need to have colored shapes
+
+One way is to have exponential sub classes for all variations of colors, Considering two colors
+Red and Green, We have 
+
+RedTriangle
+GreenTriangle
+RedSquare
+GreenSquare
+
+In this case if we have to add another shape or another color combination will keep on growing.
+
+To solve this problem we use the Bridge Design Pattern which does following
+
+$Shape has two sub classes
+
+#Square and Triangle
+
+$Color has two sub classes
+
+#Red and Green
+
+Now Shape class has an aggregation relation with Color Class i.e.  Shape consists of Color object
+
+Now if we need to add new Shape or new Color we just need to add that class nothing else all works well:)
+
+"The Bridge pattern decouples an abstraction from its implementation,
+ so that the two can vary independently" -- Official Definition
+ 
+## When Should we use Bridge Pattern ##
+
+For example, consider a graphical application dealing with shapes. The Bridge Pattern can be employed
+to separate the shape hierarchy (abstraction) from the rendering logic (implementation). 
+This way, adding a new shape or a new rendering technique can be done 
+independently without affecting the existing shapes or rendering methods.
+
+In essence, the Bridge Pattern is a valuable tool when you anticipate changes 
+in both abstractions and implementations and want to manage these changes separately 
+to keep your code modular, flexible, and easier to maintain.
+ 
+ 
+
+
+

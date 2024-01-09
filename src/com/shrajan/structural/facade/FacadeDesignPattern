@@ -1,0 +1,18 @@
+The Facade Pattern is a structural design pattern that provides a unified interface to a set of
+interfaces in a subsystem. It simplifies and abstracts complex functionality behind a simpler interface, making it easier to use.
+
+Key Components:
+Facade:
+
+
+Represents the simplified interface that interacts with the complex subsystem. 
+It encapsulates and delegates the client's requests to the appropriate objects within the subsystem.
+
+
+Subsystems:
+Consist of various classes, each handling a specific part of the functionality. 
+These classes work together to achieve complex tasks.
+
+
+Multimedia Facade is exposing only limited functionality of the library. 
+To avoid code smell it just focus on required feature and exposes them to the client

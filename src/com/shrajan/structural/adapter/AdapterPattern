@@ -1,0 +1,33 @@
+***********************************************
+Adaptee :- The external library
+Target  :- Expected Interface 
+Adapter :- The one which enables Target to make use of Adaptee
+
+
+E.g. You need to integrate 3rd party library into your project.
+
+Now the problem is your code (Target) is anticipating
+JSON format however  3rd party works with XML only(Adaptee)
+
+To marry them together you need an adapter
+
+/** Object Adapter uses Composition as in our Class Adapter
+it implements target interface and uses composition
+to encapsulate incompatible 3rd party Adaptee**/
+
+/** Class Adapter uses inheritance it extends Adaptee and Implements Target ***/
+
+When to use Object Adapter vs Class Adapter ?
+
+If flexibility is crucial and you want to adapt multiple classes or interfaces at runtime,
+ Object Adapter might be preferred due to its composition-based approach.
+ 
+ If you need to override behavior or access protected members of the class being adapted, 
+ the Class Adapter might be a better choice due to its ability to inherit directly.
+ 
+ If you're working with an existing codebase that heavily utilizes inheritance, 
+ the Class Adapter might fit more seamlessly.
+ 
+ 
+ 
+

@@ -1,0 +1,39 @@
+Problem Statement
+
+1. Cases where we need to add/modify functionality of an object
+without altering its core behavior or structure
+
+
+
+2. when creating different variations of an object's 
+behavior without creating a multitude of subclasses
+or inheritance hierarchies
+
+
+Let's consider that we are working for a pizza chain (Yoyo Pizza) and it used
+to sell only Margherita Pizza only.
+
+So their System has beautiful looking Pizza Interface
+and an implementing class 
+
+Now yoyo pizza wants to offer pizza with different topings and flavors
+One idea would we to extend base class and implement different combinations of pizza
+we will end up creating lot of different classes
+
+To solve this problem we use decorator pattern
+
+Terminology
+
+Pizza Interface (Component)    Defines the basic structure for all pizzas.
+Base Pizza(Concrete Component) Represents the basic pizza with a crust type.
+Pizza Decorator( Decorator)    Abstract class implementing the Pizza interface and acting as a base for all pizza decorators.
+CheeseTopping / Veggie Topping / Meat Topping ( Concrete Decorator) These classes represent specific decorators that enhance the base pizza by 
+adding cheese, veggies, or meat toppings.
+
+
+
+
+
+
+
+
