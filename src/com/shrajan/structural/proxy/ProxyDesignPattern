@@ -1,0 +1,15 @@
+The Proxy Pattern is a structural design pattern that provides a surrogate or placeholder for another object to control access to it.
+ It allows the creation of a representative object that can serve as a placeholder for another object, providing controlled access to it.
+
+Key Components:
+Subject:
+
+Interface or abstract class defining the common interface for the RealSubject and Proxy.
+RealSubject:
+
+The real object that the Proxy represents. This object is the one the client wants to access.
+Proxy:
+
+Acts as a substitute for the RealSubject, 
+implementing the same interface. It controls access to the RealSubject, 
+adding extra functionalities like caching, logging, or controlling access permissions.
