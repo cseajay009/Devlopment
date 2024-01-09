@@ -1,0 +1,28 @@
+Examples for reference:
+● Find the sum of 2 very large numbers represented as strings (do not use BIG integer)
+● Use the code from above to add 2 bid numbers with commas
+● Cover all test cases
+● Use the code from above to calculate the n'th fibonacci number and represent it with
+comma separated number format.
+● Check whether a string is palindrome or not
+● Palindrome substrings wit max length in given string
+
+
+
+Application Design:
+To cover :
+1. Class Diagrams
+2. Schema
+3. Application layers
+4. Endpoints
+5. Queries for various use cases
+6. Associations between different tables
+7. What kind of database to use
+8. Cover various corner cases.
+System Design: Examples
+● System design diagrams
+● Explain class, sequence and ER diagrams ect
+More design questions:
+● Bike rental services
+● Automation parking lot
+● Time URL
