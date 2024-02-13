@@ -1,0 +1,10 @@
+Graph is represented by vertex and edges
+Node and vertex
+
+Graph can of following types
+Directed graph
+UnDirected graph
+
+In both we can have cyclic and asyclic graph
+
+A node can have as many vertex as one would like to have
